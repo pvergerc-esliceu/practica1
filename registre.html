@@ -1,0 +1,33 @@
+<h1>Exercici, formulari de registre</h1>
+
+<form action="https://pvergerc-esliceu.github.io/practica1/registre.html" method="get">
+    <div>
+        <label for="nom">El teu nom:</label>
+        <input type="text" name="nom" id="nom" required>
+        <label for="llinatges">Llinatges:</label>
+        <input type="text" name="llinatges" id="llinatges" required>
+    </div>
+    <div>
+        <label for="home">Home:</label>
+        <input type="radio" name="genere" id="home">
+        <label for="dona">Dona:</label>
+        <input type="radio" name="genere" id="dona">
+        <label for="altre">Altre:</label>
+        <input type="radio" name="genere" id="altre">
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="El teu mail" required>
+        <label for="password">Contrasenya:</label>
+        <input type="password" name="password" id="password" minlength="5" maxlength="10" required>
+    </div>
+    <div>
+        <label for="naixament">Data de Naixament:</label>
+        <input type="date" name="naixament" id="naixament" required>
+    </div>
+    <div>
+        <label for="termes">Estic d'acord amb els termes i condicions</label>
+        <input type="checkbox" name="termes" id="termes">
+    </div>
+    <input type="submit" name="submit" id="submit" value="submit" required>
+</form>
