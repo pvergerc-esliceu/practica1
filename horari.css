@@ -1,6 +1,6 @@
 table,
 td {
-    border: 1px solid #333;
+    border: 2px solid #333;
 }
 
 thead,
@@ -15,4 +15,40 @@ th, td {
 
 .pati {
     text-align: center;
+}
+
+.serveis{
+    background-color: #23ece2;
+    color: #e224c3;
+    border-color: #e224c3;
+}
+
+.seguretat{
+    background-color: #ec23e2;
+    color: #fff;
+    border-color: #2348ec;
+}
+
+.eie{
+    background-color: #cc8f4a;
+    color: #23e5ec;
+    border-color: #23e5ec;
+}
+
+.web{
+    background-color: #23ec70;
+    color: #2348ec;
+    border-color: #2348ec;
+}
+
+.aplicacions{
+    background-color: #ceec23;
+    color: #333;
+    border-color: #333;
+}
+
+.sistemes{
+    background-color: #e61666;
+    color: #36f306;
+    border-color: #40e616;
 }
