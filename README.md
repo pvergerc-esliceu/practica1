@@ -1,1 +1,1 @@
-Repositori on es penjen els exercicis de Aplicacions Web
+Repositori on es penjen els exercis de Aplicacions Web
